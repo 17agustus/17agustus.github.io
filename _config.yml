@@ -1,0 +1,11 @@
+# Site settings
+title: 17 Agustus
+description: > # this means to ignore newlines until "baseurl:"
+  Proklamasi Kemerdekaan Indonesia
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://17agustus.github.io" # the base hostname & protocol for your site
+
+# Build settings
+permalink: /:title.html
+markdown: kramdown
+exclude: ["vendor"]
