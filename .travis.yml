@@ -5,10 +5,11 @@ sudo: required
 services:
   - docker
 env:
-  - MOZ_HEADLESS=1
-  - TEST_SUITE=units
-  - TEST_SUITE=integration
-  - CI_NODE_TOTAL=9
+  global:
+    - MOZ_HEADLESS=1
+    - TEST_SUITE=units
+    - TEST_SUITE=integration
+    - CI_NODE_TOTAL=9
 addons:
   firefox: latest
   chrome: stable
